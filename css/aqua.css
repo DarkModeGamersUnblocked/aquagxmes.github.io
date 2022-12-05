@@ -50,8 +50,7 @@ canvas {
   -ms-transform: translate(-50%,-50%);
 }
 ul {
-  opacity: 0;
-  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -66,7 +65,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #00BBED;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -81,7 +80,8 @@ li a:hover:not(.active) {
 .active {
 color: black;
   border-radius: 100px;
-  background-color: #ffffff;
+  height: 75%;
+  background-color: #00BBED;
 }
 
 @-webkit-keyframes glow {
