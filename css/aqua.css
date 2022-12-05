@@ -64,6 +64,7 @@ li {
 }
 
 li a {
+  font-family: Consolas;
   display: block;
   color: #00BBED;
   text-align: center;
