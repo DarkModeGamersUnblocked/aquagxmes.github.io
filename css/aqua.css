@@ -21,8 +21,7 @@ canvas {
 #Aqua {
   font-family: Consolas;
   -webkit-text-stroke: 5px #00BBED;
-  font-size: 50px;
-  top: -50%;
+  font-size: 90px;
   text-align: center;
 }
 #particles-js {
