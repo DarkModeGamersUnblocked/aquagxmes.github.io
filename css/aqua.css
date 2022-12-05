@@ -32,10 +32,14 @@
   -ms-transform: translate(-50%,-50%);
 }
 ul {
+  rgba(0, 0, 0, 1)
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%
 }
 
 li {
