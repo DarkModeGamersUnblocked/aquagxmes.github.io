@@ -18,6 +18,13 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
+#Aqua {
+  color: transparent;
+  font-family: Consolas;
+  -webkit-text-stroke: 5px #00BBED;
+  font-size: 30px;
+  top: 25%;
+}
 #particles-js {
   position: absolute;
   width: 100%;
