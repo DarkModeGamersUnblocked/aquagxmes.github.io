@@ -105,8 +105,6 @@ li a:hover:not(.active) {
   animation: glow 5s linear infinite alternate;
 }
 .container {
-    height: 100vh;
-    z-index: 2;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -116,16 +114,11 @@ li a:hover:not(.active) {
     -ms-flex-pack: end;
     justify-content: flex-end;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
     width: 100%;
     height: 100%;
-    background-color: rgba(43, 43, 43, 0);
+    left: -40%;
     z-index: 1;
-    overflow: hidden;
 }
 
 .active {
