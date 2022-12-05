@@ -99,7 +99,7 @@ li a:hover:not(.active) {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00BBED; 
+  background: #0081a3;
   -webkit-animation: glow 5s linear infinite alternate;
   -moz-animation: glow 5s linear infinite alternate;
   animation: glow 5s linear infinite alternate;
@@ -109,15 +109,15 @@ li a:hover:not(.active) {
 color: black;
   border-radius: 100px;
   height: 75%;
-  background-color: #00BBED;
+  text-shadow: 0 0 5px #00BBED;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 30px #0062ff, 0 0 25px #0062ff, 0 0 20px #000000, 0 0 40px #000000, 
-                 0 0 15px #000000, 0 0 10px #1ba82b, 0 0 5px #1ba82b
+    text-shadow: 0 0 10px #0062ff, 0 0 10px #0062ff, 0 0 10px #000000, 0 0 10px #000000, 
+                 0 0 10px #000000, 0 0 10px #1ba82b, 0 0 10px #1ba82b
   }
   to {
-    text-shadow: 0 0 5px #1ba82b, 0 0 10px #1ba82b, 0 0 15px #000000, 0 0 50px #ff4da6, 
-                 0 0 20px #000000, 0 0 25px #0062ff, 0 0 30px #0062ff;
+    text-shadow: 0 0 10px #1ba82b, 0 0 10px #1ba82b, 0 0 10px #000000, 0 0 10px #ff4da6, 
+                 0 0 10px #000000, 0 0 10px #0062ff, 0 0 10px #0062ff;
   }
