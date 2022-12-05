@@ -1,5 +1,6 @@
 /* ---- particles.js config ---- */
-
+particlesJS.load('particles-js', 'https://aquagxmes.github.io/js/particles.json', function() {
+  console.log('particles.js loaded - callback');
 particlesJS("particles-js", {
   "particles": {
     "number": {
