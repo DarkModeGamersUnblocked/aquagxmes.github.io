@@ -77,6 +77,26 @@ li a:hover:not(.active) {
   animation: glow 5s linear infinite alternate;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #00BBED; 
+  border-radius: 1000px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00BBED; 
+  -webkit-animation: glow 5s linear infinite alternate;
+  -moz-animation: glow 5s linear infinite alternate;
+  animation: glow 5s linear infinite alternate;
+}
+
 .active {
 color: black;
   border-radius: 100px;
