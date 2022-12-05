@@ -32,7 +32,7 @@
   -ms-transform: translate(-50%,-50%);
 }
 ul {
-  rgba(0, 0, 0, 1)
+  background-color: rgba(0, 0, 0, 1);
   list-style-type: none;
   margin: 0;
   padding: 0;
