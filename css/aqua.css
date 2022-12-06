@@ -18,9 +18,8 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
-#Aqua {
+.aqua {
   font-family: Poppins;
-  color: rgba(0,0,0,0)
   -webkit-text-stroke: 2px #00BBED;
   font-size: 70px;
   text-align: center;
