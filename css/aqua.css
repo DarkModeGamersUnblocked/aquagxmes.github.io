@@ -26,7 +26,7 @@ canvas {
 }
 .aquasentence {
   font-family: Poppins;
-  -webkit-text-stroke: 0.1px #00BBED;
+  -webkit-text-stroke: 0.01px #00BBED;
   font-size: 20px;
   text-align: center;
 }
@@ -89,9 +89,12 @@ li a {
 
 li a:hover:not(.active) {
   z-index: 3;
-    -webkit-animation: glow 5s linear infinite alternate;
-  -moz-animation: glow 5s linear infinite alternate;
-  animation: glow 5s linear infinite alternate;
+    -webkit-animation: glow 5s linear infinite;
+  -moz-animation: glow 5s linear infinite;
+  animation: glow 5s linear infinite ;
+  -webkit-text-stroke: 0.8px #00BBED;
+
+  \
 }
 
 ::-webkit-scrollbar {
@@ -133,26 +136,27 @@ li a:hover:not(.active) {
 }
 
 .active {
-    -webkit-animation: glowactive 5s linear infinite alternate;
-  -moz-animation: glowactive 5s linear infinite alternate;
-  animation: glowactive 5s linear infinite alternate;
+    -webkit-animation: glowactive 5s linear infinite;
+  -moz-animation: glowactive 5s linear infinite;
+  animation: glowactive 5s linear infinite;
 color: #ffffff;
   border-radius: 100px;
   height: 75%;
-  text-shadow: 0 0 50px #00BBED;
+  text-shadow: 0 0 10px #00BBED;
   a
 }
-@-webkit-keyframes glowactive {
+@keyframes glowactive {
   from {
-    text-shadow: 0 0 50px #0062ff, 0 0 50px #0062ff, 0 0 50px #000000, 0 0 50px #000000, 
-                 0 0 50px #000000, 0 0 50px #1ba82b, 0 0 50px #1ba82b, 0 0 50px #0062ff, 0 0 50px #0062ff;
+    text-shadow: 0 0 10px #0062ff, 0 0 10px #0062ff, 0 0 10px #000000, 0 0 10px #000000, 
+                 0 0 10px #000000, 0 0 10px #1ba82b, 0 0 10px #1ba82b, 0 0 10px #0062ff, 0 0 10px #0062ff;
   }
   to {
-    text-shadow: 0 0 50px #1ba82b, 0 0 50px #1ba82b, 0 0 50px #000000, 0 0 50px #ff4da6, 
-                 0 0 50px #000000, 0 0 50px #0062ff, 0 0 50px #0062ff, 0 0 50px #0062ff, 0 0 50px #0062ff;
+    text-shadow: 0 0 10px #1ba82b, 0 0 10px #1ba82b, 0 0 10px #000000, 0 0 10px #ff4da6, 
+                 0 0 10px #000000, 0 0 10px #0062ff, 0 0 10px #0062ff, 0 0 10px #0062ff, 0 0 10px #0062ff;
   }
+}
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #0062ff, 0 0 20px #0062ff, 0 0 30px #000000, 0 0 40px #000000, 
                  0 0 50px #000000, 0 0 40px #1ba82b, 0 0 30px #1ba82b, 0 0 20px #0062ff, 0 0 10px #0062ff;
@@ -161,3 +165,4 @@ color: #ffffff;
     text-shadow: 0 0 50px #1ba82b, 0 0 40px #1ba82b, 0 0 30px #000000, 0 0 20px #ff4da6, 
                  0 0 10px #000000, 0 0 20px #0062ff, 0 0 30px #0062ff, 0 0 40px #0062ff, 0 0 50px #0062ff;
   }
+}
