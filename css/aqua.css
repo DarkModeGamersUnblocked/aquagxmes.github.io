@@ -20,14 +20,14 @@ canvas {
 }
 .aqua {
   font-family: Poppins;
-  -webkit-text-stroke: 0.5px #00BBED;
+  -webkit-text-stroke: 0.1px #00BBED;
   font-size: 70px;
   text-align: center;
 }
-.aqua h2 {
+.aquasentence {
   font-family: Poppins;
-  -webkit-text-stroke: 0.5px #00BBED;
-  font-size: 25px;
+  -webkit-text-stroke: 0.1px #00BBED;
+  font-size: 20px;
   text-align: center;
 }
 #particles-js {
