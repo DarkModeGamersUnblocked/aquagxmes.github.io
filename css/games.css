@@ -21,7 +21,12 @@
 .gamecontent {
 	position: relative
 }
-
+.gmeifram {
+	margin: auto;
+	display: block;
+	box-border: 1vw double #000000;
+	animation: gmeglow 1s ease-in-out infinite
+}
 .gamecontent p {
 	position: absolute;
 	padding: 0;
@@ -56,4 +61,12 @@
 	flex-wrap: wrap;
 	flex-basis: 10%;
 	width: 100%;
+}
+@keyframes gmeglow {
+  from {
+    text-shadow: 0 0 10px #000000;
+  }
+  to {
+    text-shadow: 0 0 50px #000000;
+  }
 }
