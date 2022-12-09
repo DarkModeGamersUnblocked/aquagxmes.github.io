@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <title>Aqua Games</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+  <link rel="icon" type="image/x-icon" href="./img/aqua.ico">
+  <link rel="stylesheet" href="./css/aqua.css">
+  <link rel="stylesheet" href="./css/master.css.map">
+</head>
+<body>
+<ul>
+  <li><a class="active" href="https://aquagxmes.github.io">Home</a></li>
+  <li><a href="https://aquagxmes.github.io/pages/games.html">Games</a></li>
+  <li><a href="https://aquagxmes.github.io/pages/news.html">News</a></li>
+  <li><a href="https://aquagxmes.github.io/pages/issues.html">Issues</a></li>
+</ul>
+  <div class="container">
+<iframe style="border:4px #000000 dotted;" width="800" height="450" src="https://aquagxmes.github.io/games/8ball/" scrolling="no" frameborder="1" align="center"></iframe>
+  </div>
+ <div id="particles-js"></div>
+  <script src="./js/particles.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/cookie.js"></script>
+</body>
+</html>
+
+
