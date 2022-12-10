@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 .game {
 	width: 11vw;
 	height: 11vw;
@@ -9,7 +10,7 @@
 .game:hover {
 	transition: all .1s linear;
 	cursor: pointer;
-    border: 6px double #ffffff;
+    border: 6px double #00BEED;
 }
 
 .game:hover p {
@@ -39,9 +40,10 @@
 	visibility: hidden;
 	opacity: 0;
 	font-weight: 700;
-	text-shadow: 0 0 .5vw #000000;
-    text-align: center;
-	color: #bcbcbc;
+	font-family: Poppins;
+	text-shadow: 0 0 .5vw #00BEED;
+        text-align: center;
+	color: #00BEED;
 	line-height: 0%;
 	width: 14vw;
 	font-size: 1.2vw
@@ -51,7 +53,7 @@
 	height: 11vw;
 	width: 11vw;
 	border-radius: 15px;
-    box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 5px #000000;
 }
 
 .gamescontainer {
