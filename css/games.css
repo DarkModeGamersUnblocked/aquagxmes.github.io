@@ -31,7 +31,7 @@
 	height:100px;
 	background-color:#000;
 	margin:auto;
-	animation: gmeglow 1s ease-in-out infinite alternate
+	animation: gmeglow 1s ease-in-out infinite alternate;
 
 }
 .bottom-info h3 {
