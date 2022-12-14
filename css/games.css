@@ -22,11 +22,39 @@
 .gamecontent {
 	position: relative
 }
+.bottom-info {
+	border: 1px double #00BEED;
+	display:flex;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	width:801px;
+	height:100px;
+	background-color:#000;
+	margin:auto;
+	animation: gmeglow 1s ease-in-out infinite alternate
+
+}
+.bottom-info h3 {
+	position: relative; 
+	font-size: 25px;
+	top: 30px;
+	right: 174px;
+	font-family: Poppins;
+	-webkit-text-stroke: 0.1px #00BEED;
+}
+.bottom-info h1 {
+	position: relative; 
+	left: 30px;
+	bottom: 15px;
+	font-family: Poppins;
+	-webkit-text-stroke: 0.1px #00BEED;
+}
 .gmeifram {
-	border-radius: 20px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
 	margin: auto;
 	display: block;
-	box-border: 1vw double #000000;
+	border: 1px double #00BEED;
 	animation: gmeglow 1s ease-in-out infinite alternate
 }
 .gamecontent p {
@@ -42,7 +70,7 @@
 	font-weight: 700;
 	font-family: Poppins;
 	text-shadow: 0 0 15px #000000;
-        text-align: center;
+    text-align: center;
 	color: #00BEED;
 	line-height: 0%;
 	width: 14vw;
@@ -67,9 +95,9 @@
 }
 @keyframes gmeglow {
   from {
-    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #00BEED;
   }
   to {
-    box-shadow: 0 0 30px #000000;
+    box-shadow: 0 0 30px #00BEED;
   }
 }
