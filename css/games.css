@@ -7,6 +7,13 @@
 	border-radius: 20px
 }
 
+#fullscreen {
+	margin: auto;
+	position: absolute; 
+	right:300px;
+	bottom: 100px;
+}
+
 .game:hover {
 	transition: all .1s linear;
 	cursor: pointer;
