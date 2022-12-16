@@ -31,7 +31,7 @@
 }
 .bottom-info {
 	border: 1px double #00BEED;
-	display:flex;
+	display:block;
 	border-bottom-right-radius: 40px;
 	border-bottom-left-radius: 40px;
 	width:801px;
@@ -44,13 +44,14 @@
 .bottom-info h3 {
 	position: relative; 
 	font-size: 25px;
-	top: 30px;
+	top: -40px;
+	left: 34px;
 	font-family: Poppins;
 	-webkit-text-stroke: 0.1px #00BEED;
 }
 .bottom-info h1 {
 	position: relative; 
-	left: 30px;
+	left: 35px;
 	bottom: 15px;
 	font-family: Poppins;
 	-webkit-text-stroke: 0.1px #00BEED;
