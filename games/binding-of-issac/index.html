@@ -18,10 +18,23 @@
 </head><body>
 	<div id="fullscreen">
 		<div id="game">
-			<canvas id="uicanvas" width="0" height="0" oncontextmenu="return false;"></canvas>
+			<canvas id="uicanvas" width="960" height="120" oncontextmenu="return false;"></canvas>
 			<canvas id="bgcanvas" width="960" height="576" oncontextmenu="return false;"></canvas>
 			<canvas id="canvas" width="960" height="576" oncontextmenu="return false;">Your browser does not support HTML5/Canvas element.</canvas>
 		</div>
+	</div>
+
+	<div id="editorlink">
+	<a href="editor.html">Map Creator</a>
+	<a href="javascript:;" onclick="toggleFullscreen()">Fullscreen (Press F)</a>
+	<ul>
+	<li>&nbsp;</li>
+	<li>Special thanks :</li>
+	<li>Original game concept and sprites by Edmund McMillen</li>
+	<li>Loading artwork by <a href="http://wewk.deviantart.com/">Wewk</a></li>
+	<li>&nbsp;</li>
+	<li>Personal project entirely based on <a href="http://bindingofisaac.com/">The Binding Of Isaac</a></li>
+	</ul>
 	</div>
 	<script src="js/fullscreen.js?v=2"></script>
 	<script src="js/maps.js?v=2"></script>
