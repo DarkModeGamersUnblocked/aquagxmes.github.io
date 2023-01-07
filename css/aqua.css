@@ -10,6 +10,12 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 4;
 }
+#srchbar {
+  color: white;
+border-radius: 15px;
+font-family: Poppins;
+text-align: center;
+}
 body {
   margin: 0;
 }
@@ -30,6 +36,17 @@ canvas {
   font-size: 20px;
   text-align: center;
 }
+#srchbar {
+border-radius: 15px;
+font-family: Poppins;
+text-align: center;
+border-color: #00BBED;
+color: white;
+}
+#srchbar:focus {
+    outline: none !important;
+    border-color: #0093ba;
+  }
 #particles-js {
   position: absolute;
   width: 100%;
