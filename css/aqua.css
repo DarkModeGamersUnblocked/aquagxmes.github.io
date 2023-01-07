@@ -28,7 +28,7 @@ canvas {
   font-family: Poppins;
   -webkit-text-stroke: 0.01px #00BBED;
   font-size: 20px;
-  text-align: center;
+  text-align: center
 }
 #srchbar {
 border-radius: 15px;
