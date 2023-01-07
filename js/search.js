@@ -1,11 +1,12 @@
 function startSearch() {
-  var input, filter, ul, li, a, i;
+  var input, filter, ul, li, a, i, gf;
   input = document.getElementById("srchbar");
   filter = input.value.toUpperCase();
   ul = document.getElementsByClassName("gamescontainer");
   li = ul.getElementsByTagName("a");
+  gf = li.getElementsByTagName("div");
   for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("h1")[0];
+    a = gf[i].getElementsByTagName("p")[0];
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
     } else {
