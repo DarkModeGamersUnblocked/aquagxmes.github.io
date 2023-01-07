@@ -10,12 +10,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 4;
 }
-#srchbar {
-  color: white;
-border-radius: 15px;
-font-family: Poppins;
-text-align: center;
-}
 body {
   margin: 0;
 }
@@ -42,10 +36,13 @@ font-family: Poppins;
 text-align: center;
 border-color: #00BBED;
 color: white;
+width: 300px;
+height: 20px;
 }
 #srchbar:focus {
     outline: none !important;
     border-color: #0093ba;
+    animation: glow 5s linear infinite;
   }
 #particles-js {
   position: absolute;
