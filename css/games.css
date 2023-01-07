@@ -8,10 +8,9 @@
 }
 
 #fullscreen {
-	margin: auto;
-	position: absolute; 
-	right:300px;
-	bottom: 100px;
+	position: relative; 
+	right: -700px;
+	bottom: 130px;
 }
 
 .game:hover {
