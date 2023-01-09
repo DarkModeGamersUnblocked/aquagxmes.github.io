@@ -2,7 +2,7 @@ function startSearch() {
   var input, filter, ul, li, a, i, gf;
   input = document.getElementById("srchbar");
   filter = input.value.toUpperCase();
-  ul = document.getElementsByClassName("gamescontainer");
+  ul = document.querySelector(".gamescontainer");
   li = ul.getElementsByTagName("a");
   gf = li.getElementsByTagName("div");
   for (i = 0; i < li.length; i++) {
