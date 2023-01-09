@@ -3,8 +3,8 @@ function startSearch() {
   input = document.getElementById("srchbar");
   filter = input.value.toUpperCase();
   ul = document.querySelector(".gamescontainer");
-  li = ul.getElementsByTagName("a");
-  gf = li.getElementsByTagName("div");
+  li = ul.querySelector(".game");
+  gf = li.querySelector(".gamecontent");
   for (i = 0; i < li.length; i++) {
     a = gf[i].getElementsByTagName("p")[0];
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
