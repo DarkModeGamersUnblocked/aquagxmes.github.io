@@ -2,11 +2,10 @@ function startSearch() {
   var input, filter, ul, li, a, i, gf;
   input = document.getElementById("srchbar");
   filter = input.value.toUpperCase();
-  ul = document.querySelector(".gamescontainer");
-  li = ul.querySelector(".game");
-  gf = li.querySelector(".gamecontent");
+  ul = document.querySelector(".game");
+  li = ul.getElementsByTagName("div");
   for (i = 0; i < li.length; i++) {
-    a = gf[i].getElementsByTagName("p")[0];
+    a = li[i].getElementsByTagName("p")[0];
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
     } else {
