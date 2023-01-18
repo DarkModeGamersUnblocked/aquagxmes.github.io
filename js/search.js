@@ -1,4 +1,4 @@
-const games = document.getElementById("gamescontainer");
+const games = document.querySelector(".gamescontainer");
 const search = document.getElementById("srchbar");
 function gamefilter() {
     var filter = search.value.toUpperCase();
