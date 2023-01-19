@@ -10,8 +10,10 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 4;
 }
+* {
+  cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
+}
 body {
-  cursor: url(https://aquagxmes.github.io/img/Normal.cur);
   margin: 0;
 }
 
