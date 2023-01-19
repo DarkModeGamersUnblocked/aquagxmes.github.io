@@ -13,22 +13,23 @@
 * {
   cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
 }
-  .newsdiv {
+ .newsdiv {
   margin: auto;
-   height: 150px;
+   height: 200px;
    border: 1px solid #00BEED;
 	border-radius: 40px;
+    width: 800px;
   }
   .newsimg {
  float: left;
- height: 150px;
- width: 150px;
+ height: 200px;
+ width: 200px;
  border: 1px solid #00BEED;
  border-bottom-left-radius: 40px;
  border-top-left-radius: 40px;
   }
   .newstxt {
-  margin-left: 26vw;
+  margin-left: 230px;
   font-family: Poppins;
   -webkit-text-stroke: 0.1px #00BBED;
   }
