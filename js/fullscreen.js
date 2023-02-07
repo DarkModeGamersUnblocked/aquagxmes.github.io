@@ -1,4 +1,4 @@
-var elem = document.getElementByID("aquagame");
+var elem = document.getElementById("aquagame");
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
@@ -9,7 +9,7 @@ function openFullscreen() {
   }
 }
 
-localStorage.setItem('gamelink', document.getElementsByID("aquagame").src);
+localStorage.setItem('gamelink', document.getElementById("aquagame").src);
 function changeMethod(link) {
-  document.getElementsByID("aquagame").src = link
+  document.getElementById("aquagame").src = link
 }
