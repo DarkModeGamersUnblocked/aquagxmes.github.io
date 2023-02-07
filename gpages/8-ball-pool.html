@@ -21,7 +21,7 @@
   <h1>8 Ball Pool</h1>
   <h3 style="right:133px;">By Inlogic Games</h3>
   <input id="fullscreen" type="image" src="/img/fullscreen.png" onclick="openFullscreen('aquagame')">
-  <input id="refresh" type="image" src="/img/refresh.png" onclick="changeMethod('https://google.com')">
+  <input id="refresh" type="image" src="/img/refresh.png" onclick="changeMethod(localStorage.getItem('gamelink'))">
   </div>
   </div>
  <div id="particles-js"></div>
