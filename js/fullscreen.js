@@ -8,7 +8,9 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
+var gameurl = document.getElementsById("aquagame").src;
 
+localStorage.setItem('gamelink', sometext);
 function changeMethod(link) {
   document.getElementsById("aquagame").src = link
 }
