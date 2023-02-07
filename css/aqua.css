@@ -20,6 +20,14 @@
 	border-radius: 40px;
     width: 800px;
   }
+ .newsdiv:hover {
+    -webkit-animation: glowactive 5s linear infinite;
+  -moz-animation: glowactive 5s linear infinite;
+  animation: glowactive 5s linear infinite;
+  }
+.newslink {
+	text-decoration: none;
+}
   .newsimg {
  float: left;
  height: 200px;
