@@ -13,6 +13,26 @@
 * {
   cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
 }
+.methodbttn {
+    font-family: Poppins;
+    border: 1px solid #00BEED;
+    color: #00BEED;
+	font-size: 15px;
+    background-color: #000000;
+    border-radius: 10px; 
+    height: 50px; 
+    width: 100px; 
+    position: relative; 
+    top: 25px;
+}
+.methodbttn:hover {
+    -webkit-animation: glow 5s linear infinite;
+  -moz-animation: glow 5s linear infinite;
+  animation: glow 5s linear infinite;
+}
+.methods {
+text-align: center;
+}
  .newsdiv {
   margin: auto;
    height: 200px;
@@ -21,9 +41,9 @@
     width: 800px;
   }
  .newsdiv:hover {
-    -webkit-animation: glowactive 5s linear infinite;
-  -moz-animation: glowactive 5s linear infinite;
-  animation: glowactive 5s linear infinite;
+    -webkit-animation: glow 5s linear infinite;
+  -moz-animation: glow 5s linear infinite;
+  animation: glow 5s linear infinite;
   }
 .newslink {
 	text-decoration: none;
@@ -137,9 +157,9 @@ li a {
 
 li a:hover:not(.active) {
   z-index: 3;
-    -webkit-animation: glow 5s linear infinite;
-  -moz-animation: glow 5s linear infinite;
-  animation: glow 5s linear infinite ;
+    -webkit-animation: glowactive 5s linear infinite;
+  -moz-animation: glowactive 5s linear infinite;
+  animation: glowactive 5s linear infinite ;
   -webkit-text-stroke: 0.8px #00BBED;
 
   \
@@ -205,11 +225,11 @@ color: #ffffff;
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #0062ff, 0 0 20px #0062ff, 0 0 30px #000000, 0 0 40px #000000, 
+    box-shadow: 0 0 10px #0062ff, 0 0 20px #0062ff, 0 0 30px #000000, 0 0 40px #000000, 
                  0 0 50px #000000, 0 0 40px #1ba82b, 0 0 30px #1ba82b, 0 0 20px #0062ff, 0 0 10px #0062ff;
   }
   to {
-    text-shadow: 0 0 50px #1ba82b, 0 0 40px #1ba82b, 0 0 30px #000000, 0 0 20px #ff4da6, 
+    box-shadow: 0 0 50px #1ba82b, 0 0 40px #1ba82b, 0 0 30px #000000, 0 0 20px #ff4da6, 
                  0 0 10px #000000, 0 0 20px #0062ff, 0 0 30px #0062ff, 0 0 40px #0062ff, 0 0 50px #0062ff;
   }
 }
