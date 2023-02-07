@@ -8,3 +8,7 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
+
+function changeMethod(link) {
+  document.getElementsById("aquagame").src = link
+}
