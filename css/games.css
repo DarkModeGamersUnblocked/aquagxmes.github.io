@@ -22,9 +22,9 @@
 	width: 50px;
 }
 .game:hover {
-	transition: all .1s linear;
+	transition: all .5s linear;
 	cursor: pointer;
-    border: 6px double #00BEED;
+	animation: gmeglow 1.5s linear infinite alternate;
 }
 
 .game:hover p {
@@ -32,7 +32,22 @@
 	opacity: 1;
 	transition: visibility 0s, opacity .3s linear
 }
-
+.game:hover .gameborde {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s, opacity .3s linear
+}
+.gameborde {
+	opacity: 0;
+	background-color:rgba(0,0,0,0.5);
+	width: 10.85vw;
+	height: 2.9vw;
+	top: -45px;
+	border: 1px solid #00BEED;
+	border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	position: relative;
+}
 .gamecontent {
 	position: relative
 }
@@ -68,7 +83,7 @@
 	border-top-left-radius: 40px;
 	margin: auto;
 	display: block;
-	border: 1px double #00BEED;
+	border: 1px double #00BBED;
 	animation: gmeglow 1s ease-in-out infinite alternate
 }
 .gamecontent p {
@@ -76,7 +91,7 @@
 	padding: 0;
     font-family:
 	margin: 0;
-	top: 80%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%, 0);
 	visibility: hidden;
