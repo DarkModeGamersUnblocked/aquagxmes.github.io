@@ -14,7 +14,13 @@
 	height: 50px;
 	width: 50px;
 }
-
+#refresh {
+	position: relative; 
+	right: -575px;
+	bottom: 130px;
+	height: 50px;
+	width: 50px;
+}
 .game:hover {
 	transition: all .1s linear;
 	cursor: pointer;
