@@ -13,6 +13,40 @@
 * {
   cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
 }
+#settings {
+    width: 683px; 
+    height: 400px; 
+    background-color: black; 
+    position: fixed; 
+    left: 340px; 
+    border-radius: 20px; 
+    border: 2px solid #00BBED;
+}.SettingsTitle {
+    font-family: Consolas; 
+    text-align: center; 
+    color: #00BBED;
+}
+#CloakForm {
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid #00BBED;
+    color: #00BBED;
+   }
+   #toggleSetting {
+    width: 50px;
+    position: relative; top: -5px;
+   }
+   #toggleSetting:hover {
+    animation: glow 2s linear infinite alternate;
+   }
+   .CloakInput {
+    margin: 4px;
+    width: 80px;
+    border: 1px solid #00BBED;
+    background-color: black;
+    color: #00BBED;
+    border-radius: 20px;
+   } 
 .methodbttn {
     font-family: Poppins;
     border: 1px solid #00BEED;
