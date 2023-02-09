@@ -14,6 +14,7 @@
   cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
 }
 #settings {
+	display: none;
     width: 683px; 
     height: 400px; 
     background-color: black; 
@@ -32,11 +33,11 @@
     border: 1px solid #00BBED;
     color: #00BBED;
    }
-   #toggleSetting {
+   #settingToggle {
     width: 50px;
     position: relative; top: -5px;
    }
-   #toggleSetting:hover {
+   #settingToggle:hover {
     animation: glow 2s linear infinite alternate;
    }
    .CloakInput {
