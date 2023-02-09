@@ -14,6 +14,7 @@
   cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
 }
 #settings {
+	z-index: 10;
 	display: none;
     width: 683px; 
     height: 400px; 
