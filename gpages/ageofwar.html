@@ -14,7 +14,22 @@
   <li><a class="active" href="/pages/games.html">Games</a></li>
   <li><a href="/pages/news.html">News</a></li>
 <li><a href="/pages/extra.html">Extra</a></li>
+  <li style="float: right;">
+    <a class="active" onclick="toggleSettings()">
+        <img id="settingToggle" src="/img/setting.png">
+    </a>
+</li>
 </ul>
+  <div id="settings">
+    <h1 class="SettingsTitle">Settings</h1>
+    <form style="text-align: center;">
+        <input type="text" id="CloakForm">
+<br>
+<div class="CloakBttns" style="margin: 5px;">
+    <input type="submit" value="Title Cloak" class="CloakInput" onsubmit="TitleSetting()">
+    <input type="submit" value="Icon Cloak" class="CloakInput" onsubmit="IconSetting()">
+    <input type="submit" value="Default" class="CloakInput" onsubmit="DefaultSetting()">
+</div></form></div>
   <div class="container">
 <iframe class="gmeifram" id="aquagame" width="800" height="450" src="/games/ageofwar/" scrolling="no" frameborder="1" align="center"></iframe>
 <div class="bottom-info">
