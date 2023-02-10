@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.cookie = "cookie=here; expires=" + expire;
     }
 });
-let default = false
 function getCookie(c_name) {
     var c_value = document.cookie;
     var c_start = c_value.indexOf(" " + c_name + "=");
