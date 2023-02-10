@@ -23,6 +23,8 @@
     border-radius: 20px; 
     border: 2px solid #00BBED;
 }.SettingsTitle {
+ position: relative;
+ left: 26px;
     font-family: Consolas; 
     text-align: center; 
     color: #00BBED;
