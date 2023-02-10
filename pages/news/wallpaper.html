@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
 <head>
-  <title>Aqua Games</title>
+  <title>Aqua Games - Wallpaper Method</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
   <link rel="icon" type="image/x-icon" href="/img/aqua.ico">
   <link rel="stylesheet" href="/css/aqua.css">
@@ -19,16 +19,19 @@
     </a>
 </li>
 </ul>
-  <div id="settings" style="display: none;">
+<h6 id="OrgTitleName">Aqua Games - Wallpaper Method</h6>
+<div id="settings" style="text-align: center;">
+    <a style="float: right;" onclick='doc.getElementById("settings").style.display="none"'>
+    <img src="/img/close.png" style="width: 50px;"></a>
+    
     <h1 class="SettingsTitle">Settings</h1>
-    <form style="text-align: center;">
-        <input type="text" id="CloakForm">
+        <input type="text" id="CloakForm" style="text-align: center;">
 <br>
-<div class="CloakBttns" style="margin: 5px;">
-    <input type="submit" value="Title Cloak" class="CloakInput" onsubmit="TitleSetting()">
-    <input type="submit" value="Icon Cloak" class="CloakInput" onsubmit="IconSetting()">
-    <input type="submit" value="Default" class="CloakInput" onsubmit="DefaultSetting()">
-</div></form></div>
+<div class="CloakBttns" style="margin: 5px;text-align: center;">
+    <button class="CloakInput" onclick="TitleSetting(doc.getElementById('CloakForm').value)">Title Cloak</button>
+    <button class="CloakInput" onclick="IconSetting(doc.getElementById('CloakForm').value)">Icon Cloak</button>
+    <button class="CloakInput" onclick="DefaultSetting()">Default</button>
+</div></div>
   <div class="container">
 <div class="container">
   <h1 class="aqua">Wallpaper Method</h1>
