@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
+        
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
-    doc.title = ls.getItem("titlecloak")     
+    doc.title = ls.getItem("titlecloak") 
+        /*fdsfdsf*/
     console.log(document.cookie);
     var visit = getCookie("cookie");
     if (visit == null) {
@@ -10,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.cookie = "cookie=here; expires=" + expire;
     }
 });
-
+let default = false
 function getCookie(c_name) {
     var c_value = document.cookie;
     var c_start = c_value.indexOf(" " + c_name + "=");
@@ -33,8 +35,7 @@ function getCookie(c_name) {
 
 function off() {
   document.getElementById("overlay").style.display = "none";
-}
-           .;                   
+}                 
 const doc = document
 const ls = localStorage
 function setico(urle) {
@@ -56,7 +57,7 @@ doc.title = ls.getItem("titlecloak")
 }
 function DefaultSetting() {
 setico('https://aquagxmes.github.io/img/aqua.ico'),
-setitle('Aqua Games')
+setitle(doc.getElementById('OrgTitleName').innerHTML)
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
 doc.title = ls.getItem("titlecloak")
 }
