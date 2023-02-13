@@ -1,10 +1,11 @@
-var DefaultS = false
+var DefaultS = true
+const doc = document
+const ls = localStorage
 document.addEventListener("DOMContentLoaded", function(event) { 
         if (DefaultS == false) {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
         } else if (DefaultS == true){
-                setitle(doc.getElementById('OrgTitleName').innerHTML)
                 doc.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
                 doc.title = doc.getElementById('OrgTitleName').innerHTML
         }
@@ -13,9 +14,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log(document.cookie);
     var visit = getCookie("cookie");
     if (visit == null) {
-            setico('https://aquagxmes.github.io/img/aqua.ico'),
-setitle(doc.getElementById('OrgTitleName').innerHTML)
-        document.getElementById("overlay").style.display = "block";
         var expire = new Date();
         expire = new Date(expire.getTime() + 7776000000);
         document.cookie = "cookie=here; expires=" + expire;
@@ -44,8 +42,7 @@ function getCookie(c_name) {
 function off() {
   document.getElementById("overlay").style.display = "none";
 }                 
-const doc = document
-const ls = localStorage
+
 function setico(urle) {
 ls.setItem("iconcloak", urle)
 }
