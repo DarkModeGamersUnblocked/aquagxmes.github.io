@@ -57,6 +57,7 @@ doc.getElementById("settings").style.display = "none"
 }
 }                      
 function TitleSetting(thing) {
+        DefaultS = false
 setitle(thing),
 doc.title = ls.getItem("titlecloak")
 }
@@ -68,6 +69,7 @@ doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
 doc.title = ls.getItem("titlecloak")
 }
 function IconSetting(thing) {
+        DefaultS = false
 setico(thing),
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
 }
