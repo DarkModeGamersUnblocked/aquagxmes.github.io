@@ -57,19 +57,19 @@ doc.getElementById("settings").style.display = "none"
 }
 }                      
 function TitleSetting(thing) {
-        DefaultS = false
+       var DefaultS = false
 setitle(thing),
 doc.title = ls.getItem("titlecloak")
 }
 function DefaultSetting() {
-DefaultS = true
+var DefaultS = true
 setico('https://aquagxmes.github.io/img/aqua.ico'),
 setitle(doc.getElementById('OrgTitleName').innerHTML)
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
 doc.title = ls.getItem("titlecloak")
 }
 function IconSetting(thing) {
-        DefaultS = false
+        var DefaultS = false
 setico(thing),
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
 }
