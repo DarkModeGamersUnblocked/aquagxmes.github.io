@@ -61,7 +61,7 @@ setitle(thing),
 doc.title = ls.getItem("titlecloak")
 }
 function DefaultSetting() {
-        DefaultS = false
+DefaultS = true
 setico('https://aquagxmes.github.io/img/aqua.ico'),
 setitle(doc.getElementById('OrgTitleName').innerHTML)
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
