@@ -1,6 +1,6 @@
 var DefaultS = false
 document.addEventListener("DOMContentLoaded", function(event) { 
-        if (DefaultS == false) then {
+        if (DefaultS == false) {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
         } else if (DefaultS == true){
