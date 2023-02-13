@@ -1,7 +1,13 @@
+var DefaultS = false
 document.addEventListener("DOMContentLoaded", function(event) { 
-        
+        if (DefaultS == false) then {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
+        } else if (DefaultS == true){
+                doc.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
+    doc.title = doc.getElementById('OrgTitleName').innerHTML
+        }
+        
         /*fdsfdsf*/
     console.log(document.cookie);
     var visit = getCookie("cookie");
@@ -55,6 +61,7 @@ setitle(thing),
 doc.title = ls.getItem("titlecloak")
 }
 function DefaultSetting() {
+        DefaultS = false
 setico('https://aquagxmes.github.io/img/aqua.ico'),
 setitle(doc.getElementById('OrgTitleName').innerHTML)
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
