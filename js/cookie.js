@@ -4,14 +4,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
         } else if (DefaultS == true){
+                setitle(doc.getElementById('OrgTitleName').innerHTML)
                 doc.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
-    doc.title = doc.getElementById('OrgTitleName').innerHTML
+                doc.title = doc.getElementById('OrgTitleName').innerHTML
         }
         
         /*fdsfdsf*/
     console.log(document.cookie);
     var visit = getCookie("cookie");
     if (visit == null) {
+            setico('https://aquagxmes.github.io/img/aqua.ico'),
+setitle(doc.getElementById('OrgTitleName').innerHTML)
         document.getElementById("overlay").style.display = "block";
         var expire = new Date();
         expire = new Date(expire.getTime() + 7776000000);
@@ -66,7 +69,7 @@ var DefaultS = true
 setico('https://aquagxmes.github.io/img/aqua.ico'),
 setitle(doc.getElementById('OrgTitleName').innerHTML)
 doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak")
-doc.title = ls.getItem("titlecloak")
+doc.title = doc.getElementById('OrgTitleName').innerHTML
 }
 function IconSetting(thing) {
         var DefaultS = false
