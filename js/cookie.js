@@ -1,10 +1,10 @@
 const doc = document
 const ls = localStorage
 document.addEventListener("DOMContentLoaded", function(event) { 
-        if (ls.getItem("default")) {
+        if (ls.getItem("default") == 'false') {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
-        } else if (ls.getItem("default") == true){
+        } else if (ls.getItem("default") == 'true'){
                 doc.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
                 doc.title = doc.getElementById('OrgTitleName').innerHTML
         }
