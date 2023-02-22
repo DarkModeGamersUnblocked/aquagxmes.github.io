@@ -10,7 +10,7 @@ window.addEventListener('load', async() => {
   gms = await jso.json();
   const dat = gms[gamePage]
   gameIframe.src = dat.Iframe
-  title.InnerHTML = dat.Title
- author.InnerHTML = dat.Author
+  title.innerText = dat.Title
+ author.innerText = dat.Author
   document.getElementById("OrgTitleName").InnerHTML = gms.PageTitle
 })
