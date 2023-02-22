@@ -1,6 +1,6 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const gamePage = urlParams.get('game');
+const gamePage = urlParams.get('aqua');
 const gameIframe = document.getElementById("aquagame");
 const title = document.getElementById('GmeTitle');
 const author = document.getElementById('GmeAuthor');
@@ -9,8 +9,8 @@ window.addEventListener('load', async() => {
  jso = await fetch('/js/game.json');
   gms = await jso.json();
   const dat = gms[gamePage]
-  gameIframe.src = gms.iframe
-  title.InnerHTML = gms.Title
- author.InnerHTML = gms.Author
+  gameIframe.src = dat.iframe
+  title.InnerHTML = dat.Title
+ author.InnerHTML = dat.Author
   document.getElementById("OrgTitleName").InnerHTML = gms.PageTitle
 })
