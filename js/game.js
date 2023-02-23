@@ -12,5 +12,6 @@ window.addEventListener('DOMContentLoaded',async()=>{
   gameIframe.src = dat.Iframe
   title.innerHTML = dat.Title
  author.innerHTML = dat.Author
+ document.title = dat.PageTitle
   pgeTitle.innerHTML = dat.PageTitle
  })
