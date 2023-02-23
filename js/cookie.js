@@ -1,6 +1,6 @@
 const doc = document
 const ls = localStorage
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("load", function(event) { 
         if (ls.getItem("default") == 'false') {
         doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
     doc.title = ls.getItem("titlecloak") 
