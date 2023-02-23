@@ -5,8 +5,6 @@ const gameIframe = document.getElementById("aquagame");
 const title = document.getElementById('GmeTitle');
 const author = document.getElementById('GmeAuthor');
 const pgeTitle = document.getElementById("OrgTitleName");
- const doc = document;
-const ls = localStorage;
 window.addEventListener('DOMContentLoaded',async()=>{
  jso = await fetch('/js/game.json');
   gms = await jso.json();
@@ -15,11 +13,11 @@ window.addEventListener('DOMContentLoaded',async()=>{
   title.innerHTML = dat.Title
  author.innerHTML = dat.Author
   pgeTitle.innerHTML = dat.PageTitle
-        if (ls.getItem("default") == 'false') {
-        doc.getElementsByTagName('link')[1].href = ls.getItem("iconcloak"),
-    doc.title = ls.getItem("titlecloak") 
-        } else if (ls.getItem("default") == 'true'){
-                doc.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
-                doc.title = doc.getElementById('OrgTitleName').innerHTML
+        if (localStorage.getItem("default") == 'false') {
+        document.getElementsByTagName('link')[1].href = localStorage.getItem("iconcloak"),
+    document.title = localStorage.getItem("titlecloak") 
+        } else if (localStorage.getItem("default") == 'true'){
+                document.getElementsByTagName('link')[1].href = "https://aquagxmes.github.io/img/aqua.ico",
+               document.title = document.getElementById('OrgTitleName').innerHTML
         }
  })
